@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite	name="SSM - Sanity Test Automation Suite Report for - Analytics Module_Mar22">
+	
+	<test name="ValidateAnalyticsConfigurationList_Test">
+		<classes>
+			<class
+				name="analyticsTests.ValidateAnalyticsConfigurationList_Test"/>
+		</classes>
+	</test>
+	
+	
+	<test name="ValidateAnalyticsHistory_Test">
+		<classes>
+			<class name="analyticsTests.ValidateAnalyticsHistory_Test"/>
+		</classes>
+	</test>
+	
+	<test name="ValidateAuditLogs">
+		<classes>
+			<class name="analyticsTests.ValidateAuditLogs"/>
+		</classes>
+	</test>
+	<test name="ValidateLicenceManagement_Test">
+		<classes>
+			<class name="analyticsTests.ValidateLicenceManagement_Test"/>
+		</classes>
+	</test>
+	<test name="ValidateManageInfraApps">
+		<classes>
+			<class name="analyticsTests.ValidateManageInfraApps"/>
+		</classes>
+	</test>
+	
+	<test name="Validateprivilage">
+		<classes>
+			<class name="analyticsTests.Validateprivilage"/>
+		</classes>
+	</test>
+	
+	<test name="ValidateUsageAnalytics">
+		<classes>
+			<class name="analyticsTests.ValidateUsageAnalytics"/>
+		</classes>
+	</test>
+</suite>

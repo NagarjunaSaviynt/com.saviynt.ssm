@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SSM - ARS Module Sanity Test Suite ">
+	<test name="ValidateRequestHome">
+		<classes>
+			<class name="arsTests.ValidateRequestHome" />
+		</classes>
+	</test>
+	<test name="ValidateARSRequestHistory">
+		<classes>
+			<class name="arsTests.ValidateARSRequestHistory" />
+		</classes>
+	</test>
+	<test name="ValidateARSRequestApproval">
+		<classes>
+			<class name="arsTests.ValidateARSRequestApproval" />
+		</classes>
+	</test>
+	<test name="ValidatePendingTask">
+		<classes>
+			<class name="arsTests.ValidatePendingTask" />
+		</classes>
+	</test>
+	<test name="ValidateCompletedTask">
+		<classes>
+			<class name="arsTests.ValidateCompletedTask" />
+		</classes>
+	</test>
+</suite>
+
+
+

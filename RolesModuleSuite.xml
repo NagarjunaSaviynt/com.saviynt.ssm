@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite
+	name="SSM - Sanity Test Automation Suite Report for - Roles Module_Feb03">
+
+	<test name="ValidateByRoleMininginstance">
+		<classes>
+			<class name="rolesTests.ValidateByRoleMininginstance" />
+		</classes>
+	</test>
+	<test name="ValidateByUserAndEntitlementsOnTheBasisofRole">
+		<classes>
+			<class name="rolesTests.ValidateByUserAndEntitlementsOnTheBasisofRole" />
+		</classes>
+	</test>
+	
+	<test name="ValidateDiscoverEntitlementAssociations">
+		<classes>
+			<class name="rolesTests.ValidateDiscoverEntitlementAssociations" />
+		</classes>
+	</test>
+	<test name="ValidateEntitlementDiscovery">
+		<classes>
+			<class name="rolesTests.ValidateEntitlementDiscovery" />
+		</classes>
+	</test>
+	<test name="ValidateMiningByUsers">
+		<classes>
+			<class name="rolesTests.ValidateMiningByUsers" />
+		</classes>
+	</test>
+	<test name="ValidateMiningByUsersOntheBasisofRoles">
+		<classes>
+			<class name="rolesTests.ValidateMiningByUsersOntheBasisofRoles" />
+		</classes>
+	</test>
+	<test name="ValidateRoleEntitlementDiscovery">
+		<classes>
+			<class name="rolesTests.ValidateRoleEntitlementDiscovery" />
+		</classes>
+	</test>
+	<test name="ValidateRolesJRM">
+		<classes>
+			<class name="rolesTests.ValidateRolesJRM" />
+		</classes>
+	</test>
+	<test name="ValidateRolesWBNotAssignedtoAnyUaer">
+		<classes>
+			<class name="rolesTests.ValidateRolesWBNotAssignedtoAnyUaer" />
+		</classes>
+	</test>
+	
+	<test name="ValidateRoleWBbyUsers">
+		<classes>
+			<class name="rolesTests.ValidateRoleWBbyUsers" />
+		</classes>
+	</test>
+	
+	<test name="ValidateWorkBenchByRoles">
+		<classes>
+			<class name="rolesTests.ValidateWorkBenchByRoles" />
+		</classes>
+	</test>
+</suite>
+
+
+

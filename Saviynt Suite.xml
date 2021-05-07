@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SSM - Saviynt Sanity Test Suite ">
+
+
+		<!-- ARS -->
+		
+		
+	<test name="ValidateRequestHome">
+		<classes>
+			<class name="arsTests.ValidateRequestHome" />
+		</classes>
+	</test>
+	<test name="ValidateARSRequestHistory">
+		<classes>
+			<class name="arsTests.ValidateARSRequestHistory" />
+		</classes>
+	</test>
+	<test name="ValidateARSRequestApproval">
+		<classes>
+			<class name="arsTests.ValidateARSRequestApproval" />
+		</classes>
+	</test>
+	<test name="ValidatePendingTask">
+		<classes>
+			<class name="arsTests.ValidatePendingTask" />
+		</classes>
+	</test>
+	<test name="ValidateCompletedTask">
+		<classes>
+			<class name="arsTests.ValidateCompletedTask" />
+		</classes>
+	</test>
+	
+		<!-- SOD -->
+		
+		<test name="ValidateBusinessProcesses">
+		<classes>
+			<class name="sodTests.ValidateBusinessProcesses" />
+		</classes>
+	</test>
+	<test name="ValidateMitigatingControl">
+		<classes>
+			<class name="sodTests.ValidateMitigatingControl" />
+		</classes>
+	</test>
+	<test name="ValidateRulesetFunctions">
+		<classes>
+			<class name="sodTests.ValidateRulesetFunctions" />
+		</classes>
+	</test>
+	<test name="ValidateRulesetRisks">
+		<classes>
+			<class name="sodTests.ValidateRulesetRisks" />
+		</classes>
+	</test>
+	<test name="ValidateRulesets">
+		<classes>
+			<class name="sodTests.ValidateRulesets" />
+		</classes>
+	</test>
+	<test name="ValidateSimulations">
+		<classes>
+			<class name="sodTests.ValidateSimulations" />
+		</classes>
+	</test>
+	<test name="ValidateSODRulesetRequest">
+		<classes>
+			<class name="sodTests.ValidateSODRulesetRequest" />
+		</classes>
+	</test>
+	<test name="ValidateSODViolation">
+		<classes>
+			<class name="sodTests.ValidateSODViolation" />
+		</classes>
+	</test>
+	
+		<!-- Roles -->
+		
+		<test name="ValidateByRoleMininginstance">
+		<classes>
+			<class name="rolesTests.ValidateByRoleMininginstance" />
+		</classes>
+	</test>
+	<test name="ValidateByUserAndEntitlementsOnTheBasisofRole">
+		<classes>
+			<class name="rolesTests.ValidateByUserAndEntitlementsOnTheBasisofRole" />
+		</classes>
+	</test>
+	
+	<test name="ValidateDiscoverEntitlementAssociations">
+		<classes>
+			<class name="rolesTests.ValidateDiscoverEntitlementAssociations" />
+		</classes>
+	</test>
+	<test name="ValidateEntitlementDiscovery">
+		<classes>
+			<class name="rolesTests.ValidateEntitlementDiscovery" />
+		</classes>
+	</test>
+	<test name="ValidateMiningByUsers">
+		<classes>
+			<class name="rolesTests.ValidateMiningByUsers" />
+		</classes>
+	</test>
+	<test name="ValidateMiningByUsersOntheBasisofRoles">
+		<classes>
+			<class name="rolesTests.ValidateMiningByUsersOntheBasisofRoles" />
+		</classes>
+	</test>
+	<test name="ValidateRoleEntitlementDiscovery">
+		<classes>
+			<class name="rolesTests.ValidateRoleEntitlementDiscovery" />
+		</classes>
+	</test>
+	<test name="ValidateRolesJRM">
+		<classes>
+			<class name="rolesTests.ValidateRolesJRM" />
+		</classes>
+	</test>
+	<test name="ValidateRolesWBNotAssignedtoAnyUaer">
+		<classes>
+			<class name="rolesTests.ValidateRolesWBNotAssignedtoAnyUaer" />
+		</classes>
+	</test>
+	
+	<test name="ValidateRoleWBbyUsers">
+		<classes>
+			<class name="rolesTests.ValidateRoleWBbyUsers" />
+		</classes>
+	</test>
+	
+	<test name="ValidateWorkBenchByRoles">
+		<classes>
+			<class name="rolesTests.ValidateWorkBenchByRoles" />
+		</classes>
+	</test>
+	
+	<!-- Analytics -->
+	
+	<test name="ValidateAnalyticsConfigurationList_Test">
+		<classes>
+			<class
+				name="analyticsTests.ValidateAnalyticsConfigurationList_Test"/>
+		</classes>
+	</test>
+	
+	
+	<test name="ValidateAnalyticsHistory_Test">
+		<classes>
+			<class name="analyticsTests.ValidateAnalyticsHistory_Test"/>
+		</classes>
+	</test>
+	
+	<test name="ValidateAuditLogs">
+		<classes>
+			<class name="analyticsTests.ValidateAuditLogs"/>
+		</classes>
+	</test>
+	<test name="ValidateLicenceManagement_Test">
+		<classes>
+			<class name="analyticsTests.ValidateLicenceManagement_Test"/>
+		</classes>
+	</test>
+	<test name="ValidateManageInfraApps">
+		<classes>
+			<class name="analyticsTests.ValidateManageInfraApps"/>
+		</classes>
+	</test>
+	
+	<test name="Validateprivilage">
+		<classes>
+			<class name="analyticsTests.Validateprivilage"/>
+		</classes>
+	</test>
+	
+	<test name="ValidateUsageAnalytics">
+		<classes>
+			<class name="analyticsTests.ValidateUsageAnalytics"/>
+		</classes>
+	</test>
+	
+	<!-- Attestations -->
+	
+	<test name="ValidateCampaign">
+		<classes>
+			<class name="attestationTests.ValidateCampaign" />
+		</classes>
+	</test>
+	
+	<!-- Admin -->
+	
+	<test name="ValidateAccounts">
+		<classes>
+			<class name="adminTests.ValidateAccounts" />
+		</classes>
+
+	</test>
+	<test name="ValidateAdminFunctions">
+		<classes>
+			<class name="adminTests.ValidateAdminFunctions" />
+		</classes>
+
+	</test>
+	<test name="ValidateAPI">
+		<classes>
+			<class name="adminTests.ValidateAPI" />
+		</classes>
+
+	</test>
+	<test name="ValidateApplicationAuditLogs_Test">
+		<classes>
+			<class name="adminTests.ValidateApplicationAuditLogs_Test" />
+		</classes>
+	
+	 </test>
+	<test name="ValidateApplicationLogs_Test">
+		<classes>
+			<class name="adminTests.ValidateApplicationLogs_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateAttestations_Test">
+		<classes>
+			<class name="adminTests.ValidateAttestations_Test" />
+		</classes>
+
+	</test>
+	
+	<test name="ValidateCertificateManagement_Test">
+		<classes>
+			<class name="adminTests.ValidateCertificateManagement_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateConfigurationFiles">
+		<classes>
+			<class name="adminTests.ValidateConfigurationFiles" />
+		</classes>
+
+	</test>
+	<test name="ValidateConnections">
+		<classes>
+			<class name="adminTests.ValidateConnections" />
+		</classes>
+
+	</test>
+	<test name="ValidateDataAnalyzer">
+		<classes>
+			<class name="adminTests.ValidateDataAnalyzer" />
+		</classes>
+
+	</test>
+	
+	<test name="ValidateEntitlements">
+		<classes>
+			<class name="adminTests.ValidateEntitlements" />
+		</classes>
+	
+	</test>
+	<test name="ValidateEntitlementUpdateRules">
+		<classes>
+			<class name="adminTests.ValidateEntitlementUpdateRules" />
+		</classes>
+
+	</test>
+	
+	<test name="ValidateExecutionTrail">
+		<classes>
+			<class name="adminTests.ValidateExecutionTrail" />
+		</classes>
+
+	</test>
+	<test name="ValidateExternalSetup_Test">
+		<classes>
+			<class name="adminTests.ValidateExternalSetup_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateFileDirectory_Test">
+		<classes>
+			<class name="adminTests.ValidateFileDirectory_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateIDPConfiguration_Test">
+		<classes>
+			<class name="adminTests.ValidateIDPConfiguration_Test" />
+		</classes>
+
+	</test>
+	
+	<test name="ValidateJobControlPanel">
+		<classes>
+			<class name="adminTests.ValidateJobControlPanel" />
+		</classes>
+
+	</test>
+	<test name="ValidateLoggerConfiguration">
+		<classes>
+			<class name="adminTests.ValidateLoggerConfiguration" />
+		</classes>
+
+	</test>
+	<test name="ValidateOrganizations">
+		<classes>
+			<class name="adminTests.ValidateOrganizations" />
+		</classes>
+
+	</test>
+	<test name="ValidatePasswordPolicies">
+		<classes>
+			<class name="adminTests.ValidatePasswordPolicies" />
+		</classes>
+
+	</test>
+	<test name="ValidatePoliciesTechRules">
+		<classes>
+			<class name="adminTests.ValidatePoliciesTechRules" />
+		</classes>
+
+	</test>
+	<test name="ValidateRequestMap">
+		<classes>
+			<class name="adminTests.ValidateRequestMap" />
+		</classes>
+
+	</test>
+	
+	<test name="ValidateRequestRules">
+		<classes>
+			<class name="adminTests.ValidateRequestRules" />
+		</classes>
+
+	</test>
+	<test name="ValidateRoles">
+		<classes>
+			<class name="adminTests.ValidateRoles" />
+		</classes>
+
+	</test>
+	<test name="ValidateSAVRoles">
+		<classes>
+			<class name="adminTests.ValidateSAVRoles" />
+		</classes>
+
+	</test>
+	<!-- <test name="ValidateScanRules">
+		<classes>
+			<class name="adminTests.ValidateScanRules" />
+		</classes>
+
+	</test> -->
+	<test name="ValidateSecuritySystems">
+		<classes>
+			<class name="adminTests.ValidateSecuritySystems" />
+		</classes>
+
+	</test>
+	<test name="ValidateUIBranding">
+		<classes>
+			<class name="adminTests.ValidateUIBranding" />
+		</classes>
+
+	</test>
+	<test name="ValidateUserGroups_Test">
+		<classes>
+			<class name="adminTests.ValidateUserGroups_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateUsers_Test">
+		<classes>
+			<class name="adminTests.ValidateUsers_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateUserUpdateRule_Test">
+		<classes>
+			<class name="adminTests.ValidateUserUpdateRule_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateWebServiceAuth_Test">
+		<classes>
+			<class name="adminTests.ValidateWebServiceAuth_Test" />
+		</classes>
+
+	</test>
+	<test name="ValidateWFApproval">
+		<classes>
+			<class name="adminTests.ValidateWFApproval" />
+		</classes>
+
+	</test>
+	<test name="ValidateWFList">
+		<classes>
+			<class name="adminTests.ValidateWFList" />
+		</classes>
+
+	</test>
+	
+	
+	<!--Control center-->
+	
+	
+	<test name="ValidateControlCenter">
+		<classes>
+			<class name="ControlCenterTests.ValidateControlCenter" />
+		</classes>
+
+	</test>
+	
+	
+</suite>
+
+
+

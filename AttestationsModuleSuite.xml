@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite
+	name="SSM - Sanity Test Automation Suite Report for -Attestations Module_march 22">
+
+	<test name="ValidateCampaign">
+		<classes>
+			<class name="attestationsTests.ValidateCampaign" />
+		</classes>
+	</test>
+	<test name="ValidateCreateNewAttestation">
+		<classes>
+			<class name="attestationsTests.ValidateCreateNewAttestation" />
+		</classes>
+	</test>
+
+	<test name="ValidateDataOwner">
+		<classes>
+			<class name="attestationsTests.ValidateDataOwner" />
+		</classes>
+	</test>
+
+</suite>
+
+
+
